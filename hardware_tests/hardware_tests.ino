@@ -142,7 +142,7 @@ void setup() {
   
   tft.begin(40000000 );
 
-  tft.setRotation(1);
+  tft.setRotation(3);
   draw_background();
   draw_accounts();
   draw_input_value();
